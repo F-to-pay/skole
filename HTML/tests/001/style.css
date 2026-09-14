@@ -1,0 +1,14 @@
+.coolbox {
+  background: linear-gradient(120deg, #1189f9,#8510ec 20%, #ff00f7);
+  border: 1px solid #949494;
+  padding: 10px;
+  margin: 3%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coolbox:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}

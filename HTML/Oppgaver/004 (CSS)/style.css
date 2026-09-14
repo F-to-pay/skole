@@ -1,0 +1,79 @@
+body {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.btn {
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f0f0f0, #ddd);
+    border: 1px solid #ccc;
+    transition: 0.4s ease;
+    transform: background 0.4s ease;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #ddd, #f0f0f0);
+    scale: 1.05 ;
+}
+
+
+.box-venstre {
+    width: max(100px, 30%);
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: auto;
+    float: left;
+}
+
+.box-midten {
+    width: max(100px, 30%);
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: auto;
+    float: left;
+}
+
+.box-hoyre {
+    width: max(50px, 30%);
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: auto;
+    float: left;
+}
+
+.ultrabox-l {
+    width: 49%;
+    margin-left: auto;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.ultrabox-l p {
+    padding-left: 20px;
+}
+
+.ultrabox-r {
+    width: 49%;
+    margin-right: auto;
+    height: 200px;
+    border: 1px solid #ccc;
+    float: right;
+    background: url("happy-jump.png") 100px 10px no-repeat;
+    background-color: #f0f0f0;
+    background-size: 100px;
+}
+
+.ultrabox-r p {
+    padding-left: 20px;
+}

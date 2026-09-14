@@ -1,0 +1,32 @@
+.box {
+  width: min(80%, 700px);
+  padding: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  margin: 1rem auto;
+  color: #f8fafc;
+  background: linear-gradient(135deg, #312e81, #7c3aed 30%, #c026d3);
+  box-shadow: 0 20px 45px rgba(104, 47, 189, 0.35);
+  font-family: system-ui, sans-serif;
+  transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 28px 55px rgba(76, 29, 149, 0.5);
+}
+
+.invisibox {
+  width: min(80%, 700px);
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  color: #334155;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+  font-family: system-ui, sans-serif;
+  backdrop-filter: blur(10px);
+}
