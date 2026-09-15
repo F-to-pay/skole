@@ -1,3 +1,6 @@
-path {
-    font-size: 64px;
+p {
+    font-size: 16px;
+    font-family: Ubuntu, Regular;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
